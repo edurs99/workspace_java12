@@ -8,12 +8,7 @@ public class Empreiteiro extends Funcionario {
 		super(numRegistro, nome);
 		this.valorEmpreita = valorEmpreita;
 	}
-	
-	@Override
-	public double calcularSalario() {
-		// TODO Auto-generated method stub
-		return valorEmpreita;
-	}
+
 
 	public double getValorEmpreita() {
 		return valorEmpreita;
@@ -23,6 +18,12 @@ public class Empreiteiro extends Funcionario {
 		this.valorEmpreita = valorEmpreita;
 	}
 
+	
+	@Override
+	public double calcularSalario() {
+		// TODO Auto-generated method stub
+		return valorEmpreita;
+	}
 
 	
 	
