@@ -20,4 +20,5 @@ public class BDMySQL implements InterfaceBD {
 		
 	}
 
+
 }
