@@ -75,6 +75,13 @@ public class FolhaDePagamento {
 		for (Funcionario f : lista) {
 			System.out.printf("%8d - %-30s  R$ %8.2f%n", f.getNumRegistro(), f.getNome(), f.calcularSalario());
 		}	
+		
+		int idBusca = 1006;
+		for (int pos=0; pos < lista.size(); pos++) {
+			if (lista.get(pos).getNumRegistro() == idBusca) {
+				System.out.println("O funcionario "+lista.get(pos).getNome()+" esta na posicao "+pos);
+			}
+		}
 	}
 
 }
